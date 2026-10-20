@@ -1,0 +1,46 @@
+name: Bug report
+description: Something doesn't work as it should
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead. A screenshot helps.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Turn on System proxy
+        2. Open https://…
+        3. …
+  - type: input
+    id: version
+    attributes:
+      label: elcapture version
+      description: Menu elcapture → Check for updates shows it
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: "15.3"
+    validations:
+      required: true
+  - type: input
+    id: client
+    attributes:
+      label: Client
+      description: The app, browser, device or tool whose traffic you were capturing
+      placeholder: "Chrome / Android 14 emulator / curl / iPhone over Wi-Fi"
+  - type: textarea
+    id: log
+    attributes:
+      label: Log
+      description: Menu elcapture → elcapture log. Remove anything private before pasting.
+      render: text

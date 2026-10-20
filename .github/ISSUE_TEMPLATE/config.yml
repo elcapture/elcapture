@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or help
+    url: https://github.com/elcapture/elcapture/discussions
+    about: How do I…? Ask in Discussions.
+  - name: Security issue
+    url: https://github.com/elcapture/elcapture/blob/main/SECURITY.md
+    about: Report vulnerabilities privately, not in a public issue.
